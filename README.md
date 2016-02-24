@@ -6,7 +6,7 @@
 * 其他的代码里面有注释
 
 ####  使用
-* 安装pip: `yum install -y python-setuptools`
+* 安装pip: `yum install python-pip`
 * 安装tornado: `pip install tornado==4.3`
 * 启动脚本: `python logwatcher.py /opt/logs(log-dir) 10086(port)`
 * request: `http://yourmache:port/file/tail-num` exp ( http://127.0.0.1:10086/redis.log/100 if /opt/logs/下面有redis.log的话-_-)
